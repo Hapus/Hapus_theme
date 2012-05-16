@@ -1,0 +1,145 @@
+/* Non displays */
+#titleWrapper, #ccBreadcrumb {
+	display: none;
+}
+
+/* Overrides */
+#contentContainer{
+	border-top: solid 7px #f46121;
+	margin-top: -2em;
+}
+
+/* Sliders */
+#convSlider {
+	width: 439px; 
+	height: 228px;
+	overflow: hidden;
+	margin-top: 2em;
+}
+#mhBanner{
+	float: left;
+	width: 100%;
+}
+#mastHead{
+	height: 370px;
+}
+#mhbLeft{
+	float: left;
+	width: 40%;
+	padding-top: 1em;
+	color: #939393;
+}
+#mhbRight{
+	float: right;
+	background: url(../images/browserHeader.png) 0 0 repeat-x;
+	width: 439px;
+	margin: 1.8em 0 0 0;
+	min-height: 100px;
+	box-shadow: 0 0 15px #000;
+}
+#mhBanner h3, #mhBanner h2{
+	color: #e1e1e1;
+	font-weight: 400;
+	font-size: 2.3em;
+	text-shadow: 1px 1px #000, -1px -1px #000;
+	margin: 0;
+}
+#mhBanner h3{
+	font-weight: 300;
+	margin: 1em 0 0.5em 0;
+}
+#mhBanner p{
+	margin: 2em 0;
+}
+
+/* Headline */
+#headline {
+	text-align: center;
+}
+#headline h4{
+	color: #3e3e3e;
+	font-size: 1.9em;
+	font-weight: 400;
+	margin: 0.5em 0;
+}
+#headline em{
+	color: #f16022;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+/* Star line */
+#starline{
+	border-top: solid 1px #ededed;
+	margin: 2em 0 1em 0;
+}
+#star{
+	float: left;
+	height: 20px;
+	width: 30px;
+	background: #fff;
+	margin: -0.4em 0 0 50%;
+	color: #c5c5c5;
+	font-size: 1.7em;
+	text-align: center;
+}
+
+/* Features UL */
+#features, #features li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#features{
+	width: 100%;
+	float: left;
+	margin: 2em 0 0 0;
+}
+#features li{
+	width: 49%;
+	float: left;
+	margin-bottom: 2em;
+}
+#features li.right{
+	float: right;
+}
+.featureLogo{
+	background: #f16022;
+	color: #fff;
+	font-size: 2em;
+	float: left;
+	border-radius: 6em;
+    font-size: 2.5em;
+    height: 2em;
+    line-height: 2.3em;
+    text-align: center;
+    width: 2em;
+}
+.featureText{
+	float: right;
+	width: 82%;
+}
+.featureText h6{
+	color: #3e3e3e;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 1.2em;
+	margin: 0;
+}
+
+/* Feature actions */
+#featureActions {
+	border-top: solid 1px #ededed;
+	float: left;
+	width: 100%;
+	margin: 0 0 2em 0;
+}
+#faButtons{
+	float: left;
+	background: #fff;
+	margin: -1.2em 0 0 36.5%;
+	padding: 0 0.5em;
+}
+#faButtons em{
+	margin: 0 0.5em;
+}

@@ -1,0 +1,18 @@
+name = Hapus
+description = Hapus fixed-width theme for PDFGen
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = "css/style.css"
+stylesheets[print][] = print.css
+
+settings[hapus_width] = fixed
+
+regions[footerLeft] = Footer left
+regions[footerCenter] = Footer center
+regions[footerRight] = Footer right
+regions[creditsLeft] = Credits (left)
+regions[creditsRight] = Credits (right)
+regions[leftSidebar] = Left sidebar
+regions[content] = Content
