@@ -17,8 +17,8 @@
 	</div>
 	<div id="mhbRight">
 		<div id="convSlider">
-			<img src="<?php print drupal_get_path('theme', 'hapus') ?>/images/SliderImages/html_1.png" width="439" height="228" alt="Draaaaab HTML" />
-			<img src="<?php print drupal_get_path('theme', 'hapus') ?>/images/SliderImages/pdf_1.png" width="439" height="228" alt="Voila! A beautiful PDF." />
+			<img src="<?php print base_path() . drupal_get_path('theme', 'hapus') ?>/images/SliderImages/html_1.png" width="439" height="228" alt="Draaaaab HTML" />
+			<img src="<?php print base_path() . drupal_get_path('theme', 'hapus') ?>/images/SliderImages/pdf_1.png" width="439" height="228" alt="Voila! A beautiful PDF." />
 		</div>
 	</div>
 </div>
