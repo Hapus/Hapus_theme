@@ -44,12 +44,19 @@
       
       <div id="ccBreadcrumb">
         <div id="ccbTriangle"></div>
-        <div id="ccbText"><?php print "$breadcrumb › $title" ?></div>
+        <div id="ccbText"><?php print "$breadcrumb" ?></div>
       </div>
 
       <div id="ccContent<?php $page['leftSidebar'] ? print 'Double' : print 'Single' ?>">
         <div id="ccLeft"><?php print render($page['leftSidebar']); ?></div>
-        <div id="ccRight"><?php print render($page['content']); ?></div>
+        <div id="ccRight">
+          <?php if ($messages): ?>
+            <div id="messages"><div class="messagesClearfix">
+              <?php print $messages; ?>
+            </div></div> <!-- /.section, /#messages -->
+          <?php endif; ?>
+          <?php print render($page['content']); ?>
+        </div>
       </div>
 
     </div>

@@ -155,9 +155,15 @@ function hapus_field__taxonomy_term_reference($variables) {
  */
 function hapus_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
+  $bcPrefix = t('You are here') . ": ";
 
+  //If the user is logged in and is on his/her profile page
+  if(user_is_logged_in() && arg(0) == 'user')
+    return $bcPrefix . t('Dashboard');
+
+  //All other default cases
   if (!empty($breadcrumb)) {
-    $output = t('You are here') . ": ";
+    $output = $bcPrefix;
 
     $output .= implode(' <span class="breadcrumbSep"> › </span> ', $breadcrumb);
     return $output;
@@ -168,6 +174,13 @@ function hapus_breadcrumb($variables) {
  * Implements theme_form_alter()
  */
 function hapus_form_alter(&$form, &$form_state, $form_id) {
-  foreach ($form["submitted"] as $key => $value)
+  if(!isset($form["submitted"]))
+    return;
+
+  foreach ($form["submitted"] as $key => $value){
+    if(!is_array($form["submitted"][$key]))
+      $form["submitted"][$key] = array();
+      
     $form["submitted"][$key]['#attributes']["placeholder"] = t($value["#title"]);
+  }
 }
