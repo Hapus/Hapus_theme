@@ -45,6 +45,11 @@
       <div id="ccBreadcrumb">
         <div id="ccbTriangle"></div>
         <div id="ccbText"><?php print "$breadcrumb" ?></div>
+        <?php if ($tabs): ?>
+          <div id="ccTabs">
+            <?php print render($tabs); ?>
+          </div>
+        <?php endif; ?>
       </div>
 
       <div id="ccContent<?php $page['leftSidebar'] ? print 'Double' : print 'Single' ?>">

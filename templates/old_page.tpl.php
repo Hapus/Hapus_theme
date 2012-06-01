@@ -193,7 +193,7 @@
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php if ($tabs): ?>
-        <div class="tabs">
+        <div id="ccTabs">
           <?php print render($tabs); ?>
         </div>
       <?php endif; ?>
