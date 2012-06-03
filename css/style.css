@@ -42,6 +42,30 @@ h3.pageTitle{
   margin: 1em 0 1.2em 0;
   padding-bottom: 1em;
 }
+h3.subTitle{
+  color: #F66A2D;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+/* Table styling */
+table th, table td{
+  padding: 0.3em 0.5em;
+}
+table th{
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  border-bottom: none;
+  color: #000;
+}
+table tr.even{
+  background: #fff;
+}
+table tr.odd{
+  background: #f8f8f8;
+}
 
 /* Form elements */
 .form-text, .form-textarea {
@@ -525,7 +549,7 @@ input.error{
 #cboxNode h2{
   margin: 0;
 }
-#cboxNode h2 a{
+#cboxNode h2 a, #cboxNode h2{
   color: #F66A2D;
   font-family: 'Open Sans',sans-serif;
   font-weight: 300;
