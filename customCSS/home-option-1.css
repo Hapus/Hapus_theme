@@ -46,7 +46,7 @@
 }
 #mhBanner h3{
 	font-weight: 300;
-	margin: 1em 0 0.5em 0;
+	margin: 1.5em 0 0.5em 0;
 }
 #mhBanner p{
 	margin: 2em 0;
@@ -93,10 +93,11 @@
 #features{
 	width: 100%;
 	float: left;
-	margin: 2em 0 0 0;
+	margin: 2em 0 2em 0;
 }
 #features li{
 	width: 49%;
+	height: 120px;
 	float: left;
 	margin-bottom: 2em;
 }
