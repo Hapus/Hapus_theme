@@ -143,6 +143,9 @@ table tr.odd{
   font-weight: 300;
   text-shadow: -1px -1px #444;
 }
+a.button-link{
+  text-decoration: none;
+}
 
 /* Main content area form styling */
 input.form-text, form textarea{
