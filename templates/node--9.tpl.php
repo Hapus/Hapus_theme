@@ -59,7 +59,7 @@
 		<div class="featureLogo pictos">l</div>
 		<div class="featureText">
 			<h6>Unlimited language support</h6>
-			<p>Ever wanted to convert Chinese text into PDF? Right-to-left languages? No problem! Sprint PDF has unlimited language support, so you won’t be lingua-restricted. Don’t worry about character fonts, special accents, or weird symbols—we support them all!</p>
+			<p>Ever wanted to convert Chinese text into PDF? Right-to-left languages? No problem! Sprint PDF has unlimited language support, so you won’t be lingua-restricted. Don’t worry about character fonts, special accents, or weird symbols—<?php print l('we support them all', 'Documentation/font_list') ?>!</p>
 		</div>
 	</li>
 	<li class="right">
