@@ -561,3 +561,25 @@ input.error{
 #cboxNode .webform-component-markup{
   line-height: 1.8em;
 }
+
+/* Pager styling */
+.item-list .pager {
+  margin: 0;
+}
+.pager a{
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+#ccRight .pager li {
+  margin-left: 0;
+}
+#ccRight .pager li a{
+  background: #EFEFEF;
+  padding: 0 0.4em 0.1em 0.4em;
+  color: #444;
+}
+#ccRight .pager li a:hover{
+  background: #f8622d;
+  color: #fff;
+}
