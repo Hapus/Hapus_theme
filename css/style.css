@@ -84,6 +84,7 @@ table tr.odd{
   display: none;
 }
 .form-submit{
+  cursor: pointer;
   background-image: linear-gradient(bottom, rgb(64,64,64) 21%, rgb(90,90,90) 56%);
   background-image: -o-linear-gradient(bottom, rgb(64,64,64) 21%, rgb(90,90,90) 56%);
   background-image: -moz-linear-gradient(bottom, rgb(64,64,64) 21%, rgb(90,90,90) 56%);
